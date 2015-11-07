@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<style>
+#wrapper{
+    position:absolute;
+	top:100px;
+	left:50%;
+	width:200px;
+    height:200px;
+}
+
+#text-wrapper{
+    position:relative;
+    height:0px;
+    overflow:hidden;
+    font-size:14px;
+    font-family:Arial,Tahoma;
+    font-weight:bold;
+
+    transition: height 2s;
+    -moz-transition: height 2s; /* Firefox 4 */
+    -webkit-transition: height 2s; /* Safari and Chrome */
+    -o-transition: height 2s; /* Opera */
+    
+}
+
+#img-wrapper:hover + #text-wrapper{
+    height:200px;
+    width:100px;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+    <div id="img-wrapper">
+        <img src="http://lifewallpaperz.com/images/2015/pokeball/pokeball-01.jpg""width="100" height="100">
+    </div>
+    <div id="text-wrapper"width = "100" height = "200">
+        <p><font color = "black">Gym Leader: </font><br><font color = "blue">John </font> <br><font color = "black">Pokemon:</font><br><font color = "red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
+    </div>        
+</div>
+
+
+</body>
+</html> 
+
