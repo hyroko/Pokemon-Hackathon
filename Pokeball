@@ -4,44 +4,201 @@
 <html>
 <head>
 <style>
-#wrapper{
-    position:absolute;
-	top:100px;
-	left:50%;
-	width:200px;
-    height:200px;
+body {
+  background-image: url(http://img.photobucket.com/albums/v734/Hyroko/PokemonBackground.png~original)
 }
 
-#text-wrapper{
-    position:relative;
-    height:0px;
-    overflow:hidden;
-    font-size:14px;
-    font-family:Arial,Tahoma;
-    font-weight:bold;
-
-    transition: height 2s;
-    -moz-transition: height 2s; /* Firefox 4 */
-    -webkit-transition: height 2s; /* Safari and Chrome */
-    -o-transition: height 2s; /* Opera */
-    
+#GymLeaderWrapper {
+  position: absolute;
+  top: 50px;
+  left: 25%;
+  width: 100px;
+  height: 180px;
 }
 
-#img-wrapper:hover + #text-wrapper{
-    height:200px;
-    width:100px;
+#EliteFourWrapper {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 100px;
+  height: 200px;
+}
+
+#ChampionWrapper {
+ position:absolute;
+ top:0;
+ right:0;
+ width:200px;
+}
+
+#text-wrapper {
+  position: relative;
+  height: 0px;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: Arial, Tahoma;
+  font-weight: bold;
+  transition: height 2s;
+  -moz-transition: height 2s;
+  /* Firefox 4 */
+  
+  -webkit-transition: height 2s;
+  /* Safari and Chrome */
+  
+  -o-transition: height 2s;
+  /* Opera */
+}
+
+#img-wrapper:hover + #text-wrapper {
+  height: 175px;
+  width: 100px;
+}
+
+.gymleader {
+  display: inline-block;
+  display: inline;
+  vertical-align: top;
 }
 </style>
 </head>
 <body>
-<div id="wrapper">
-    <div id="img-wrapper">
-        <img src="http://lifewallpaperz.com/images/2015/pokeball/pokeball-01.jpg""width="100" height="100">
-    </div>
-    <div id="text-wrapper"width = "100" height = "200">
-        <p><font color = "black">Gym Leader: </font><br><font color = "blue">John </font> <br><font color = "black">Pokemon:</font><br><font color = "red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
-    </div>        
+<div id="GymLeaderWrapper">
+  <div id="img-wrapper" class="gymleader">
+    <img src="http://img.photobucket.com/albums/v734/Hyroko/Pokeball1.png" width="75" height="75">
+  </div>
+  <div id="text-wrapper" width="100" height="200">
+    <p><font color="black">Gym Leader: </font>
+      <br><font color="blue">John </font>
+      <br><font color="black">Pokemon:</font>
+      <br><font color="red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
+  </div>
+
+
+  <div id="img-wrapper" class="gymleader">
+    <img src="http://img.photobucket.com/albums/v734/Hyroko/Pokeball1.png" width="75" height="75">
+  </div>
+  <div id="text-wrapper" width="100" height="200">
+    <p><font color="black">Gym Leader: </font>
+      <br><font color="blue">John </font>
+      <br><font color="black">Pokemon:</font>
+      <br><font color="red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
+  </div>
+
+  
+  <div id="img-wrapper" class="gymleader">
+    <img src="http://img.photobucket.com/albums/v734/Hyroko/Pokeball1.png" width="75" height="75">
+  </div>
+  <div id="text-wrapper" width="100" height="200">
+    <p><font color="black">Gym Leader: </font>
+      <br><font color="blue">John </font>
+      <br><font color="black">Pokemon:</font>
+      <br><font color="red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
+  </div>
+
+  
+  <div id="img-wrapper" class="gymleader">
+    <img src="http://img.photobucket.com/albums/v734/Hyroko/Pokeball1.png" width="75" height="75">
+  </div>
+  <div id="text-wrapper" width="100" height="200">
+    <p><font color="black">Gym Leader: </font>
+      <br><font color="blue">John </font>
+      <br><font color="black">Pokemon:</font>
+      <br><font color="red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
+  </div>
+
+  
+  <div id="img-wrapper" class="gymleader">
+    <img src="http://img.photobucket.com/albums/v734/Hyroko/Pokeball1.png" width="75" height="75">
+  </div>
+  <div id="text-wrapper" width="100" height="200">
+    <p><font color="black">Gym Leader: </font>
+      <br><font color="blue">John </font>
+      <br><font color="black">Pokemon:</font>
+      <br><font color="red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
+  </div>
+
+  
+  <div id="img-wrapper" class="gymleader">
+    <img src="http://img.photobucket.com/albums/v734/Hyroko/Pokeball1.png" width="75" height="75">
+  </div>
+  <div id="text-wrapper" width="100" height="200">
+    <p><font color="black">Gym Leader: </font>
+      <br><font color="blue">John </font>
+      <br><font color="black">Pokemon:</font>
+      <br><font color="red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
+  </div>
+  
+  
+  <div id="img-wrapper" class="gymleader">
+    <img src="http://img.photobucket.com/albums/v734/Hyroko/Pokeball1.png" width="75" height="75">
+  </div>
+  <div id="text-wrapper" width="100" height="200">
+    <p><font color="black">Gym Leader: </font>
+      <br><font color="blue">John </font>
+      <br><font color="black">Pokemon:</font>
+      <br><font color="red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
+  </div>
+
 </div>
+
+
+<div id="EliteFourWrapper">
+
+  <div id="img-wrapper" class="EliteFour">
+    <img src="http://img.photobucket.com/albums/v734/Hyroko/Ultraball.png" width="75" height="75">
+  </div>
+  <div id="text-wrapper" width="100" height="200">
+    <p><font color="black">Elite Four: </font>
+      <br><font color="blue">John </font>
+      <br><font color="black">Pokemon:</font>
+      <br><font color="red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
+  </div>
+
+
+  <div id="img-wrapper" class="EliteFour">
+    <img src="http://img.photobucket.com/albums/v734/Hyroko/Ultraball.png" width="75" height="75">
+  </div>
+  <div id="text-wrapper" width="100" height="200">
+    <p><font color="black">Elite Four: </font>
+      <br><font color="blue">John </font>
+      <br><font color="black">Pokemon:</font>
+      <br><font color="red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
+  </div>
+
+  
+  <div id="img-wrapper" class="EliteFour">
+    <img src="http://img.photobucket.com/albums/v734/Hyroko/Ultraball.png" width="75" height="75">
+  </div>
+  <div id="text-wrapper" width="100" height="200">
+    <p><font color="black">Elite Four: </font>
+      <br><font color="blue">John </font>
+      <br><font color="black">Pokemon:</font>
+      <br><font color="red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
+  </div>
+
+  
+  <div id="img-wrapper" class="EliteFour">
+    <img src="http://img.photobucket.com/albums/v734/Hyroko/Ultraball.png" width="75" height="75">
+  </div>
+  <div id="text-wrapper" width="100" height="200">
+    <p><font color="black">Elite Four: </font>
+      <br><font color="blue">John </font>
+      <br><font color="black">Pokemon:</font>
+      <br><font color="red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
+  </div>
+ </div>
+  
+  <div id="ChampionWrapper">
+    <div id="img-wrapper" class="Champion">
+      <img src="http://img.photobucket.com/albums/v734/Hyroko/Masterball_1.png" width="75" height="75">
+    </div>
+    <div id="text-wrapper" width="100" height="200">
+      <p><font color="black">Champion: </font>
+        <br><font color="blue">John </font>
+        <br><font color="black">Pokemon:</font>
+        <br><font color="red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
+    </div>
+  </div>
 
 
 </body>
