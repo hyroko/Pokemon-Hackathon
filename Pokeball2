@@ -9,7 +9,7 @@ background-image: url(http://img.photobucket.com/albums/v734/Hyroko/PokemonBackg
 }
 
 #GymLeaderWrapper{
-    position:absolute;
+    position:relative;
 	top:15px;
 	left:25%;
 	width:100px;
@@ -17,7 +17,7 @@ background-image: url(http://img.photobucket.com/albums/v734/Hyroko/PokemonBackg
 }
 
 #EliteFourWrapper{
-	position:absolute;
+	position:relative;
 	top: 25%;
 	left:50%;
 	width:100px;
@@ -25,8 +25,8 @@ background-image: url(http://img.photobucket.com/albums/v734/Hyroko/PokemonBackg
 }
 	
 #ChampionWrapper{
-	position:absolute;
-	top: 50%;
+	position:relative;
+	
 	left: 75%;
 	width:100px;
     height:200px;
@@ -138,8 +138,9 @@ background-image: url(http://img.photobucket.com/albums/v734/Hyroko/PokemonBackg
     <div id="text-wrapper" width = "100" height = "200">
         <p><font color = "black">Elite Four: </font><br><font color = "blue">John </font> <br><font color = "black">Pokemon:</font><br><font color = "red"> Pikachu <br>Rhydon <br>Charmander <br>Scyther <br>Squirtle <br>Dragonite</font></p>
     </div>  
+</div>
 
-<div id= "ChampionWrapper">
+<div id = "ChampionWrapper">
 	<div id="img-wrapper" class="Champion">
         <img src="http://img.photobucket.com/albums/v734/Hyroko/Masterball_1.png" width="75" height="75">
     </div>
@@ -150,3 +151,5 @@ background-image: url(http://img.photobucket.com/albums/v734/Hyroko/PokemonBackg
 
 </body>
 </html> 
+
+
